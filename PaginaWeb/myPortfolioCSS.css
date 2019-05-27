@@ -1,0 +1,234 @@
+@font-face {
+  font-family: "Yanone";
+  font-display: auto;
+  src: local("Yanone"), url("YanoneKaffeesatz-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Kodchan";
+  font-display: auto;
+  src: local("Kodchan"), url("Kodchasan-Regular.woff2") format("woff2");
+}
+
+.Yanone{
+  font-family: "Yanone";
+}
+
+.Kodchan{
+  font-family: "Kodchan";
+}
+
+.White{
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.White a{
+    color: white;
+    text-decoration: none;
+}
+
+.Black{
+  color: black;
+}
+
+.ContactInfo{
+  font-size: 36px;
+  text-align: left;
+  margin-left: 1rem;
+  margin-top: 5rem;
+}
+
+.TopContainer{
+    background-image: url("Images/GreenBackground.png");
+    width: auto;
+    height: 564px;
+    position: relative;
+    display: flex;
+
+}
+
+#TopSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TopContainer div h1{
+  font-size: 112px;
+  display: block;
+  margin-right: 40rem;
+  margin-top: 17rem;
+  margin-left: 30rem;
+}
+
+.TopContainer div h2{
+  font-size: 62px;
+  display: block;
+  margin-left: 50rem;
+  text-align: center;
+}
+
+.SectionHeader{
+  font-size: 72px;
+  height: 180px;
+  background-image: linear-gradient(to right, rgba(128,200,189,1) , rgba(65,179,163,1));
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+#SubText{
+  font-size: 36px;
+}
+
+.KatharsisContainer{
+  background-image: url("Images/KatharsisBackground.png");
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.KatharsisContainer #Left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.KatharsisContainer #Right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.KatharsisContainer div h1{
+  font-size: 72px;
+  margin-bottom: 36px;
+}
+
+.KatharsisContainer div h2{
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.KatharsisContainer #Left p{
+  font-size: 24px;
+  text-align: center;
+  margin-left: 92px;
+  margin-right: 92px;
+}
+
+.KatharsisContainer #Left img{
+  margin-top: 40px;
+  margin-bottom: 95px;
+}
+
+.KatharsisContainer #Right p{
+  font-size: 36px;
+}
+
+#SteamLink{
+  margin-top: 66px;
+}
+
+#Twitter{
+  margin-top: 36px;
+}
+
+iframe {
+    width: 940px;
+    height: 540px;
+    box-shadow: 2px 2px 50px black;
+    margin-right: 20px;
+}
+
+.SmallerProjectsContainer{
+  display: flex;
+  flex-direction: row;
+  height: 380px;
+}
+
+.LargeImage{
+  width: 665px;
+}
+
+.SkillsInformationHobbies{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 640px;
+  padding: 22px 0;
+}
+
+.Button:hover{
+  box-shadow: inset 0px 0px 53px 15px rgba(255,255,255,0.76);
+}
+
+.Button .title{
+  font-size: 48px;
+}
+
+.Button .subtitle{
+  font-size: 24px;
+}
+
+.Skills{
+  background-color: rgba(195,141,158,1);
+}
+
+.Information{
+  background-color: rgba(232,168,124,1);
+}
+
+.Hobbies{
+  background-color: rgba(133,220,176,1);
+}
+
+.BottomSection .Skills{
+  padding: 36px;
+  padding-bottom: 48px;
+  padding-right: 162px;
+  font-size: 24px;
+  line-height: 14px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BottomSection .Information{
+  padding: 36px;
+  padding-bottom: 48px;
+  padding-right: 162px;
+  font-size: 24px;
+  line-height: 14px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BottomSection .Hobbies{
+  padding: 36px;
+  padding-bottom: 48px;
+  padding-right: 162px;
+  font-size: 24px;
+  line-height: 14px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invisible{
+  display: none !important;
+}
